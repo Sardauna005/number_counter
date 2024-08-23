@@ -1,0 +1,38 @@
+*,
+body,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: black;
+  color: white;
+}
+
+.container {
+  display: flex;
+  flex-flow: column wrap;
+  padding-top: 20px;
+  align-items: center;
+}
+
+.background {
+  margin-top: 30px;
+  background-color: blue;
+  padding: 32px;
+  width: 300px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+button {
+  background-color: brown;
+  padding: 15px;
+  border-radius: 15px;
+}
+
+#btn {
+  border: 2px solid white;
+}
